@@ -1,8 +1,10 @@
-const NotFound = () =>{
+import { Container } from "react-bootstrap"
+
+const NotFound = () => {
     return (
-        <div>
-            Not found
-        </div>
+        <Container className="background-error" fluid>
+      
+        </Container>
     )
 }
 export default NotFound

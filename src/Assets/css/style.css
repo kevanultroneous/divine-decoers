@@ -7,6 +7,12 @@
   background-size: cover;
   background-position: center;
 }
+.background-error {
+  background-image: url("../images/not.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
 .back-contain{
   background-color: #FFEFE2
 }
@@ -150,6 +156,9 @@ border: 2px solid #F5BCB3;
 }
 .card-w{
   width:392px;
+}
+.card-border{
+  border-radius: 20px;
 }
 .text-justify{}
 /* 

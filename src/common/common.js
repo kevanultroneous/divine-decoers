@@ -33,6 +33,83 @@ export const customTempleList = [
     price: "$3800",
   },
 ];
+export const customTempleList2 = [
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+];
 export const ListForSlider = [
   {
     paragraph: "The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
