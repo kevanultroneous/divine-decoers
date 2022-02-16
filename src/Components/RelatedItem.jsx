@@ -1,7 +1,6 @@
-import { Carousel, Image } from "react-bootstrap"
-import { customTempleList2, ListForSlider } from "../common/common";
+import { Carousel } from "react-bootstrap"
+import { ListForSlider } from "../common/common";
 import CardForTesti from "./CardForTesti";
-import SliderForTestimonial from "./SliderForTestimonial";
 
 const RelatedItem = () =>{
     const responsive = {

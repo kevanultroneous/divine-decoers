@@ -1,4 +1,4 @@
-import { Container, Offcanvas } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import AboutUs from "../Components/AboutUs";
 import CustomTemples from "../Components/CustomTemples";
 import Footer from "../Components/Footer";

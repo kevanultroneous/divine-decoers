@@ -1,8 +1,6 @@
-import { Col, Container, Row } from "react-bootstrap"
-import Footer from "../Components/Footer"
+import { Container } from "react-bootstrap"
 import LabelOfContent from "../Components/LabelOfContent"
 import DivineNavbar from "../Components/Navbar"
-import RelatedItem from "../Components/RelatedItem"
 
 const PersonalViewPage = () => {
     return (
