@@ -11,7 +11,6 @@ const DivineNavbar = () => {
   const handleClose = () => {
     setShow(false)
   }
-  const navigate = useNavigate()
   return (
     <>
       <Navbar expand="lg">
