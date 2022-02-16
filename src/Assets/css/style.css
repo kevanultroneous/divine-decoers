@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+}
+.background-home {
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+}
+.back-contain{
+  background-color: #FFEFE2
+}
+.back-img-size {
+  height: 100vh;
+}
+.mr-auto {
+  margin-left: auto !important;
+}
+.nav-fonts {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+.nav-link {
+  color: #44233b !important;
+}
+.icon-size {
+  width: 164px;
+  height: 62.46px;
+}
+.btn-contact {
+  background-color: #db4242;
+}
+.under-content {
+  margin-top: 6em;
+  margin-left: 5em;
+}
+.btn {
+  color: #fff;
+  background-color: #db4242;
+  border-color: #db4242;
+  font-weight: 600;
+  width: 230px;
+}
+.btn:hover {
+  color: #fff;
+  background-color: #db4242;
+  border-color: #db4242;
+}
+.title-level-1 {
+  color: #44243b;
+  font-size: 54px;
+}
+.title-level-2 {
+  color: #44243b;
+  font-size: 54px;
+}
+.title-level-3 {
+  font-size: 1em;
+  color: #884b5b;
+  font-weight: bold;
+}
+/* custom temple */
+.label-text {
+  color: #44243b;
+  font-weight: 700;
+  font-size: 35px;
+}
+.border-label {
+  width: 215px;
+  background-color: #44243b;
+  border: 2px solid #44243b;
+  margin-bottom: 10px;
+}
+/*  */
+.paragraph {
+  font-weight: 500;
+  font-size: 22px;
+  text-align: justify;
+}
+/*  */
+.title-of-testi{
+  font-weight: 600;
+  font-size: 40px;
+  color: #DB4242;
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2.5rem;
+    padding-left: 0.5rem;
+  }
+}
+.email-btn{
+  background-color: #DB4242;
+  border: 1px solid #DB4242;
+}
+.email-input{
+  border: 1px solid #DB4242;
+  background: none;
+}
+.email-input:focus{
+  border: 1px solid #DB4242;
+  background: none;
+  outline: none !important;
+  box-shadow: none;
+}
+.email-input::placeholder{
+  color: #fff;
+}
+/* footer */
+.footer-back {
+  background: linear-gradient(180deg, #44233b 0%, #894b5b 100%);
+}
+.fs-20{
+  font-size: 26px;
+}
+.fw-700{
+  font-weight: 700;
+}
+.fw-500{
+  font-weight: 500;
+}
+.oc-fonts{
+  color: #44243B;
+}
+.oc-fonts2{
+  color: #44243B;
+  font-weight: 600;
+}
+.para-divider{
+  margin: 27px;
+  text-align: justify;
+}
+.card-imgs{
+  height: 378px;
+  width: 378px;
+}
+.vector{
+width: 0px;
+height: 16px;
+border: 2px solid #F5BCB3;
+}
+.carousel-label{
+  color: #DB4242;
+  font-weight: 700;
+  font-size: 24px;
+}
+.carousel-star{
+  font-size: 30px;
+}
+.card-w{
+  width:392px;
+}
+.text-justify{}
+/* 
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 576px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 992px,
+  // Extra large screen / wide desktop
+  xl: 1200px
+*/
