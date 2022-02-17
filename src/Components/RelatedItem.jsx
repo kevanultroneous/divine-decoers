@@ -1,40 +1,34 @@
-import { Carousel } from "react-bootstrap"
-import { ListForSlider } from "../common/common";
-import CardForTesti from "./CardForTesti";
+import { useRef } from "react";
+import { Col, Row } from "react-bootstrap"
+import Slider from "react-slick/lib/slider";
+import { ListForSlider, sliderRes } from "../common/common";
 
 const RelatedItem = () =>{
-    const responsive = {
-        superLargeDesktop: {
-            breakpoint: { max: 4000, min: 3000 },
-            items: 5
-        },
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3
-        },
-        tablet: {
-            breakpoint: { max: 1024, min: 464 },
-            items: 2
-        },
-        mobile: {
-            breakpoint: { max: 464, min: 0 },
-            items: 1
-        }
+    const sliderRef = useRef()
+    const settings = {
+      dots: false,
+      infinite: true,
+      speed: 500,
+      autoplay:true,
+      arrows: false,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      responsive: sliderRes
     };
     return (
-        <Carousel
-        className="mb-5"
-        arrows={false}
-        responsive={responsive}>
-        {
-            ListForSlider.map((value, index) => 
-            <CardForTesti
-            user={value.icon}   
-            paragraph={value.paragraph} 
-            username={value.username}
-            star={value.rating}/>)
-        }
-    </Carousel>
-    )
+      <>
+        <Row className="justify-content-center">
+          <Col xl="12" className="mt-4 me-xl-5 ms-xl-5 mb-5">
+            <Slider {...settings} ref={sliderRef}>
+              {
+                ListForSlider.map((v) =>
+                  <h1>Hello</h1>
+                )
+              }
+            </Slider>
+          </Col>
+        </Row>
+      </>
+    );
 }
 export default RelatedItem
