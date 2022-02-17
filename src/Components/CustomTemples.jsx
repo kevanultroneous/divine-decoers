@@ -16,9 +16,9 @@ const CustomTemples = () => {
       <Row className="justify-content-center mx-lg-5">
         {
           customTempleList.map((value,index)=>
-          <div class="col-lg-4 mt-5 col-md-4 col-xl-4 ">
-            <div class="card p-0 border-0">
-             <Image src={value.image} class="card-img-top" alt="" />
+          <div className="col-lg-4 mt-5 col-md-4 col-xl-4 ">
+            <div className="card p-0 border-0">
+             <Image src={value.image} className="card-img-top" alt="" />
             </div>
           </div>)
         }
