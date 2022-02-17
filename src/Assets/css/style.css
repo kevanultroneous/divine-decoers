@@ -160,6 +160,13 @@ border: 2px solid #F5BCB3;
 .card-border{
   border-radius: 20px;
 }
+.footer{
+  position: fixed;
+ 
+}
+.ml-xl-6{
+  margin-left: 5%;
+}
 /* .text-justify{} */
 /* 
   // Extra small screen / phone

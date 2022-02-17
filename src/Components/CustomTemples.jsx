@@ -1,8 +1,6 @@
-import { Card, Col, Image, Row } from "react-bootstrap";
+import { Col, Image, Row } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
-import modelImg from "../Assets/images/model.png";
 import { customTempleList } from "../common/common";
-import CardOfCT from "./CardsOfCT";
 import LabelOfContent from "./LabelOfContent";
 const CustomTemples = () => {
   const navigate = useNavigate()
