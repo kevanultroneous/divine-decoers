@@ -167,6 +167,11 @@ border: 2px solid #F5BCB3;
 .ml-xl-6{
   margin-left: 5%;
 }
+/*  */
+.list-font{
+  font-size: 22px;
+  color: #44233b;
+}
 /* .text-justify{} */
 /* 
   // Extra small screen / phone

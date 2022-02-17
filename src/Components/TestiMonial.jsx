@@ -20,8 +20,8 @@ const TestiMonial = () => {
     <>
       <LabelWithChild
         title="Testimonials"
-        next={() => sliderRef.current.slickNext()}
-        prev={() => sliderRef.current.slickPrev()}
+        next={() => sliderRef.current.slickPrev()}
+        prev={() => sliderRef.current.slickNext()}
       />
       <Row>
         <Col xl="12">
@@ -29,7 +29,7 @@ const TestiMonial = () => {
         </Col>
       </Row>
       <Row className="justify-content-center">
-        <Col xl="12" className="mt-4 me-xl-5 ms-xl-5 mb-4">
+        <Col xl="12" className="mt-4 me-xl-5 ms-xl-5 mb-5">
           <Slider {...settings} ref={sliderRef}>
             {
               ListForSlider.map((v) =>

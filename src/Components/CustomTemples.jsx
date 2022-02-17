@@ -15,7 +15,7 @@ const CustomTemples = () => {
         {
           customTempleList.map((value,index)=>
           <div className="col-lg-4 mt-5 col-md-4 col-xl-4 ">
-            <div className="card p-0 border-0">
+            <div className="card p-0 border-0 w-100">
              <Image src={value.image} className="card-img-top" alt="" />
             </div>
           </div>)

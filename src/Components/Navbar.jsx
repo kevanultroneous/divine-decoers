@@ -44,7 +44,7 @@ const DivineNavbar = () => {
                 </Nav.Link>
               </Link>
               {/* <div className="vector"/> */}
-              <Nav.Link onClick={() => setShow(true)} className="p-0">
+              <Nav.Link onClick={() => setShow(true)} className="p-0 me-xl-5">
                 <Image src={call} height="45" />
               </Nav.Link>
             </Nav>

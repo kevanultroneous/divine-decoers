@@ -3,6 +3,8 @@ import LabelOfContent from "../Components/LabelOfContent"
 import DivineNavbar from "../Components/Navbar"
 import 'react-multi-carousel/lib/styles.css';
 import Footer from "../Components/Footer";
+import RelatedItem from "../Components/RelatedItem";
+import PersonalView from "../Components/PersonalView";
 
 
 const PersonalViewPage = () => {
@@ -27,8 +29,9 @@ const PersonalViewPage = () => {
     return (
         <Container fluid className="back-contain">
             <DivineNavbar />
-            <LabelOfContent title="Related Product" />
-            <Footer />
+            <PersonalView/>
+            <RelatedItem/>
+            <Footer />  
         </Container>
     )
 }

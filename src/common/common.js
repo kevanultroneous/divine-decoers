@@ -1,4 +1,4 @@
-import image from "../Assets/images/model.png";
+import image from "../Assets/images/model.jpg";
 import user from "../Assets/images/user.png";
 
 export const customTempleList = [
@@ -148,8 +148,8 @@ export const ListForSlider = [
     icon: user
   }
 ]
-export const personalView = {
-  images: [],
+export const personalViewList = {
+  images: [image,image,image,image,image],
   label: "Modern  Temple",
   price: "$3800",
   available: true,
