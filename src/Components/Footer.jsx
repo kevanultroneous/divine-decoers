@@ -16,12 +16,12 @@ const Footer = () => {
             </p>
           </div>
         </Col>
-        <Col lg="3" xl="3" sm="12" className="text-white">
+        <Col lg="3" xl="3" sm="12" className="text-white mt-3 mb-3">
           <div className="fw-700">About Us</div>
-          <div className="fw-700 mt-3">Contact Us</div>
-          <div className="fw-700 mt-3">Terms & Conditions</div>
+          <div className="fw-700 mt-xl-3 mt-3">Contact Us</div>
+          <div className="fw-700 mt-xl-3 mt-3">Terms & Conditions</div>
         </Col>
-        <Col lg="3" xl="3" sm="12" className="text-white mt-3 ">
+        <Col lg="3" xl="3" sm="12" className="text-white mt-3 mb-3 ">
           <div className="row">
             <div className="col-2 text-end">
               <FaFacebookF />
@@ -37,7 +37,7 @@ const Footer = () => {
         </Col>
         <Col lg="3" xl="3" sm="12" className="text-white mt-3">
           <div className="fw-700">Subscribe to our newsletter</div>
-          <InputGroup className="mb-3 mt-3 w-75">
+          <InputGroup className="mb-3 mt-3 w-100">
             <FormControl
               className="email-input text-white"
               placeholder="Email Address"

@@ -32,8 +32,23 @@ export const customTempleList = [
     name: "Modern Temples",
     price: "$3800",
   },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
 ];
 export const customTempleList2 = [
+  {
+    image: image,
+    name: "Modern Temples",
+    price: "$3800",
+  },
   {
     image: image,
     name: "Modern Temples",

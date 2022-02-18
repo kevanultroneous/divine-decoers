@@ -10,7 +10,7 @@ const RelatedItem = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    autoplay: true,
+    // autoplay: true,
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -18,7 +18,7 @@ const RelatedItem = () => {
   };
   return (
     <>
-     <LabelWithChild
+      <LabelWithChild
         title="Related Product"
         next={() => sliderRef.current.slickPrev()}
         prev={() => sliderRef.current.slickNext()}
@@ -30,6 +30,16 @@ const RelatedItem = () => {
               customTempleList.map((value, index) =>
                 <div className="card p-0 border-0 w-75">
                   <Image src={value.image} className="card-img-top" alt="" />
+                  <div className="card-img-overlay overlay">
+                    <div className="row">
+                      <div className="col-6 col-xl-6 col-lg-6 col-md-6 col-xs-6 position-absolute bottom-0 mb-2 text-white fw-700 fs-15">
+                        {value.name}
+                      </div>
+                      <div className="col-6 col-xl-6 col-lg-6 col-md-6  position-absolute bottom-0 end-0 text-end mb-2 text-white fw-700 fs-15">
+                        {value.price}
+                      </div>
+                    </div>
+                  </div>
                 </div>
               )
             }

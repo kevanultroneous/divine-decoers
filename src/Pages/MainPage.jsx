@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { Container } from "react-bootstrap";
 import AboutUs from "../Components/AboutUs";
 import CustomTemples from "../Components/CustomTemples";
@@ -12,7 +13,7 @@ const MainPage = () => {
       <TitleContent headings={<DivineNavbar />} />
       <Container fluid className="back-contain">
         <CustomTemples />
-        <AboutUs />
+        <AboutUs  />
         <TestiMonial />
         <Footer />
       </Container>
