@@ -15,9 +15,11 @@ const DivineNavbar = () => {
     <>
       <Navbar expand="lg">
         <Container fluid className="mt-3  mt-xl-3 mt-lg-3  mt-md-3">
-          <Navbar.Brand href="#" className="ms-md-5 ms-xs-1 ms-xl-5 ms-lg-5">
-            <Image src={logo} className="icon-size" />
-          </Navbar.Brand>
+          <Link to="/" className="text-decoration-none">
+            <Navbar.Brand href="#" className="ms-md-5 ms-xs-1 ms-xl-5 ms-lg-5">
+              <Image src={logo} className="icon-size" />
+            </Navbar.Brand>
+          </Link> 
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav className="mr-auto my-2 my-lg-0 nav-fonts" navbarScroll>

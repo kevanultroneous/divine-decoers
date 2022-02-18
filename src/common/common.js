@@ -1,5 +1,6 @@
 import image from "../Assets/images/model.jpg";
 import user from "../Assets/images/user.png";
+import plr from "../Assets/images/plr.png";
 
 export const customTempleList = [
   {
@@ -177,6 +178,32 @@ export const personalViewList = {
     'We use Aussie pine wood/maple wood/oak wood',
     'Manufacturing time frame 6-8 weeks from order to delivery',
     'Brass bells and accessories available seperately',
+  ],
+  pillers:[
+    {
+      img:plr,
+      nm:'FNO.1100'
+    },
+    {
+      img:plr,
+      nm:'FNO.1100'
+    },
+    {
+      img:plr,
+      nm:'FNO.1100'
+    },
+    {
+      img:plr,
+      nm:'FNO.1100'
+    },
+    {
+      img:plr,
+      nm:'FNO.1100'
+    },
+    {
+      img:plr,
+      nm:'FNO.1100'
+    }
   ],
   related:customTempleList2
 } 

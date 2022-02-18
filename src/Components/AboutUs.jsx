@@ -1,25 +1,28 @@
+import { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
+import { getAboutus } from "../Api/api";
 import LabelOfContent from "./LabelOfContent";
 
 const AboutUs = () => {
+  const [about, setAbout] = useState([])
+  const getData = () => {
+    return getAboutus()
+      .then((res) => setAbout(res.data.data))
+      .catch((e) => console.log(e.message))
+  }
+  useEffect(() => {
+    getData()
+    console.log(about)
+  }, [about])
   return (
     <>
       <LabelOfContent title={"About Us"} />
       <Row className="mt-3" >
         <Col lg="12">
           <p className="paragraph ms-xl-5 me-xl-5 ms-md-5 me-md-5">
-            Divine Home was founded in 1982. Today we are one of the largest
-            mandirs manufacturer in the world. We bring exquisite pooja
-            mandirsto families around the world. Our mandirs are designed and
-            hand crafted by skilled craftsmen who have been within our factory
-            since its commencement. Ranging from solid to compressed wood, our
-            mandirs cater to different needs within the community.
-            <br />
-            <br />
-            Over the years we expanded our presence all over the world. We have
-            established showrooms in Australia, New Zealand, United Kingdomand
-            Malaysia and endeavour to continue bringing joy to the soul of
-            anyone who might be seeking the love of God.
+            {
+              about ? 
+            about.map((v) => <p>{v.text}</p>) : <h1>No data loded</h1>}
           </p>
         </Col>
       </Row>
