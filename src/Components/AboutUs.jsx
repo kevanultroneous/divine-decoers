@@ -5,9 +5,9 @@ const AboutUs = () => {
   return (
     <>
       <LabelOfContent title={"About Us"} />
-      <Row className="mt-3">
+      <Row className="mt-3" >
         <Col lg="12">
-          <p className="paragraph ms-xl-5 me-xl-5">
+          <p className="paragraph ms-xl-5 me-xl-5 ms-md-5 me-md-5">
             Divine Home was founded in 1982. Today we are one of the largest
             mandirs manufacturer in the world. We bring exquisite pooja
             mandirsto families around the world. Our mandirs are designed and

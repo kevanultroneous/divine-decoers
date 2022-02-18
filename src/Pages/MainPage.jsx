@@ -13,7 +13,9 @@ const MainPage = () => {
       <TitleContent headings={<DivineNavbar />} />
       <Container fluid className="back-contain">
         <CustomTemples />
-        <AboutUs  />
+        <div id="about">
+        <AboutUs />
+        </div>
         <TestiMonial />
         <Footer />
       </Container>

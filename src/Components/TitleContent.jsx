@@ -5,7 +5,7 @@ const TitleContent = (props) => {
     <Container fluid className="background-home back-img-size">
       {props.headings}
       <Row className="justify-content-end under-content">
-        <Col lg={4} xl={4} className="mt-xl-5 m-xs-0">
+        <Col lg={4} xl={4} md className="mt-xl-5 m-xs-0 mt-md-5">
           <div className="title-level-1 fw-500">Bringing Your</div>
           <div className="title-level-2 fw-700">Tradition Home</div>
           <div className="title-level-3 fw-500 me-xl-5 me-xs-0">

@@ -25,7 +25,7 @@ const TestiMonial = () => {
       />
       <Row>
         <Col xl="12">
-          <div className="title-of-testi ms-xl-5">What our customer say about us.</div>
+          <div className="title-of-testi ms-xl-5 ms-md-5  me-md-5">What our customer say about us.</div>
         </Col>
       </Row>
       <Row className="justify-content-center">

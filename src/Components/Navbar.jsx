@@ -29,9 +29,7 @@ const DivineNavbar = () => {
               <Link to="/customtemples" className="text-decoration-none">
                 <Nav.Link href="/customtemples" className="me-xl-5 me-md-5 me-lg-5">Products</Nav.Link>
               </Link>
-              <Link to="/viewitem" className="text-decoration-none">
-                <Nav.Link href="/viewitem" className="">About Us</Nav.Link>
-              </Link>
+              <Nav.Link href="http://localhost:3000/#about" className="">About Us</Nav.Link>
               {/* <div className="vector"/> */}
               <Link to="/customtemples" className="text-decoration-none">
                 <Nav.Link href="/customtemples" className="fs-20">
