@@ -3,7 +3,7 @@ import comma from "../Assets/images/comma.png"
 import ReactStars from "react-rating-stars-component"
 const CardForTesti = (props) => {
     return (
-        <Card style={{ background: '#FFEFE2'}} className="ms-xl-5 ms-3 me-xl-5  card-border border-0 shadow mt-3 mb-4 p-4">
+        <Card style={{ background: '#FFEFE2'}} className="ms-xl-5 ms-1 me-1 me-xl-5  card-border border-0 shadow mt-3 mb-4 p-4">
             <Card.Body>
                 <Card.Title>
                     <Image src={comma} />

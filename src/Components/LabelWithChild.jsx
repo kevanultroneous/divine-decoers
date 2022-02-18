@@ -9,8 +9,8 @@ const LabelWithChild = (props) => {
         <label className="label-text">{props.title}</label>
         <div className="border-label"></div>
       </Col>
-      <Col xs={12} xl={5} className="mt-xl-5 mt-xs-3 mb-3 text-xl-end  ml-xl-6">
-          <Image src={leftArrow} onClick={props.next} width={49} className="me-xl-4" />
+      <Col xs={12} xl={5} className="mt-xl-5 mt-xs-3 mb-3 text-xl-end  ml-xl-6 ms-0 p-0">
+          <Image src={leftArrow} onClick={props.next} width={49} className="me-xl-4 me-4" />
           <Image src={rightArrow} onClick={props.prev} width={49} />
       </Col>
     </Row>
