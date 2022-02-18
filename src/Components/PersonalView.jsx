@@ -12,19 +12,19 @@ const PersonalView = () => {
         dots: true,
         infinite: true,
         speed: 500,
-        autoplay: true,
+        // autoplay: true,
         slidesToShow: 1,
         slidesToScroll: 1,
         responsive: sliderRes
     };
     return (
         <>
-            <Row className="mt-5 mb-5 me-xl-5 ms-xl-5">
+            <Row className="mt-3 mb-5 ms-xl-1">
                 <Col xl={6} lg={8}>
                     <Slider {...settings}  className="mt-4 me-xl-5 ms-xl-5 mb-5">
                         {
                             sliderArray.map((value, index) =>
-                                <div className="card p-0 border-0 w-75">
+                                <div className="card p-0 border-0">
                                     <Image src={value} className="card-img-top" alt="" />
                                 </div>
                             )

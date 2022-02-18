@@ -185,3 +185,19 @@ border: 2px solid #F5BCB3;
   // Extra large screen / wide desktop
   xl: 1200px
 */
+@media only screen and (max-width: 600px) {    
+  .title-of-testi {
+    font-weight: 600;
+    font-size: 19px;
+    color: #DB4242;
+}
+  .title-level-2 {
+    font-size: 30px;
+}
+  .title-level-1 {
+    font-size: 34px;
+}
+  .title-level-3 {
+    font-size: 15px;
+}
+}
